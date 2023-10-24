@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Picasso's Collection</title>
+        <link rel="stylesheet" href="external.css">
     </head>
     <body>
         <nav>
@@ -8,69 +9,80 @@
             <a href="#form">Learn More</a>
         </nav>
 <!-- gallery -->
+<div id="gallery">
         <h1 id="gallery">Picasso's Gallery </h1>
         <h3> Welcome to our virtual art gallery! Take a look around and be sure to leave you info if you interested in any pieces!</h3>
-
-        <div>
-            <img src="artwork/dancer.jpg">
-        </div>
-        <div>
-            <img src="artwork/dancers.jpg">
-        </div>
-        <div>
-            <img src="artwork/dog.jpg">
-        </div>
-        <div>
-            <img src="artwork/don-quixote.jpg">
-        </div>
-        <div>
-            <img src="artwork/dove.jpg">
-        </div>
-        <div>
-            <img src="artwork/flowers.jpg">
-        </div>
+            <div id="dancers">
+            <img src="artwork/dancer.jpg"><br/>
+                <h2>"DANCERS"</h2>
+            </div>
+            <div id="sunDancers">
+            <img src="artwork/dancers.jpg"><br/>
+                <h2>"SUN DANCERS"</h2>
+            </div>
+            <div id="dog">
+            <img src="artwork/dog.jpg"><br/>
+                <h2>"DOG"</h2>
+            </div>
+            <div id="DQ">
+            <img src="artwork/don-quixote.jpg"><br/>
+                <h2>"DON-QUIXOTE</h2>
+            </div>
+            <div id="dove">
+            <img src="artwork/dove.jpg"><br/>
+                <h2>"DOVE"</h2>
+            </div>
+            <div id="flowers">
+            <img src="artwork/flowers.jpg"><br/>
+                <h2>"FLOWERS"</h2>
+            </div>
+</div>
 <!-- form -->
         <div id="form"> 
-            <h2>interested?</h2>
-            <h3> If anything you have seen so far caught your eye or youb would liek a little more information, fill out the form below and we will get back to you as soon as possible! Thanks! </h3>
+            <h2>Interested?</h2>
+            <h3> If anything you have seen so far caught your eye or you would like a little more information, fill out the form below and we will get back to you as soon as possible! Thanks! </h3>
 
             <form action="formsubmitted.html" target="_blank">
                 <!-- name box -->
                 <label for="name"> Name: </label>
                 <input type="text" id="nameInput" name="nameInput" style="width:200px; height: 25px">
-                </div>
+            
                 <!-- email box -->
                 <label for="email">Email: </label>
-                <input type="email" id="emailInput" name="emailInput" style="width:200px; height: 25px;">
-                </div>
+                <input type="email" id="emailInput" name="emailInput" style="width:200px; height: 25px;"> <br/>
+                
                
                 <!-- artwork picker box -->
-                <label for="picker">Which Artwork Are You Interested In!</label>
+                <label for="picker">Which Artwork Are You Interested In!</label><br/>
                 <!-- options -->
                 <input type="checkbox" id="painting1" name="painting1">
-                <label for="painting1">Dancers</label>
+                <label for="painting1">Dancers</label><br/>
                 <input type="checkbox" id="painting2" name="painting2">
-                <label for="painting2">Sun Dancers</label>
+                <label for="painting2">Sun Dancers</label><br/>
                 <input type="checkbox" id="painting3" name="painting3">
-                <label for="painting3">Dog</label>
+                <label for="painting3">Dog</label><br/>
                 <input type="checkbox" id="painting4" name="painting4">
-                <label for="painting4">Don Quixote</label>
+                <label for="painting4">Don Quixote</label><br/>
                 <input type="checkbox" id="painting5" name="painting5">
-                <label for="painting5">Dove</label>
+                <label for="painting5">Dove</label><br/>
                 <input type="checkbox" id="painting6" name="painting6">
-                <label for="painting6">flowers</label>
+                <label for="painting6">flowers</label><br/>
                
                 <!-- message box -->
-                <label for="message"> What Would You Like To Say?</label>
-                <textarea id="messageInput" name="messageInput" style="width: 700px; height: 200px;"></textarea>
-                </div>
+                <label for="message"> What Would You Like To Say?</label><br/>
+                <textarea id="messageInput" name="messageInput" style="width: 700px; height: 200px;"></textarea><br/>
+                
     
     
                 <!-- submit button -->
-                <input type="submit" id="submit">
+                <input type="submit" id="submit" class="submit">
             </form>
 
         </div>
-        
+        <footer>
+            <p>picasso.artgallery@gmail.com</p>
+            <p>678-999-9899</p>
+            <p>Open 10-5 Everyday</p>
+        </footer>
     </body>
 </html>

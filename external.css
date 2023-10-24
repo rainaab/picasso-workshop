@@ -1,0 +1,49 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+}
+nav{
+    background-color: rgb(3, 3, 144);
+    text-align: right;
+    padding: 20px;  
+}
+a{
+    color: aliceblue;
+    border: 2px aliceblue solid;
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+#gallery div{
+    display: inline-block;
+    margin-right: 10px;
+    z-index: 5;
+}
+#form{
+    background-color: rgb(3, 3, 144);
+    color: aliceblue;
+    padding: 20px;
+
+}
+footer{
+    background-color: gray;
+    padding: 30px;
+    margin-top: 5px;text-align: center;
+}
+footer p{
+    display: inline;
+    margin: 10px;
+    text-align: center;
+}
+.submit{
+    margin-top: 50px;
+    margin-left: 50%;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+}
