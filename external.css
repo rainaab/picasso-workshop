@@ -5,7 +5,7 @@
 nav{
     background-color: rgb(3, 3, 144);
     text-align: right;
-    padding: 20px;  
+    padding: 2em;  
 }
 a{
     color: aliceblue;
@@ -20,8 +20,13 @@ img{
 }
 #gallery div{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 30px;
     z-index: 5;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+}
+#gallery div:hover{
+    background-color:rgb(3, 3, 144);
 }
 #form{
     background-color: rgb(3, 3, 144);
